@@ -426,7 +426,9 @@ function V3Indie({ width = 1440, height, standalone = false }) {
               </div>
               <div>
                 <div style={{ fontFamily: mono, fontSize: 10, color: '#888', letterSpacing: 1.5, marginBottom: 4 }}>SHIPPED</div>
-                <div style={{ fontFamily: display, fontWeight: 600, fontSize: 17 }}>1 product</div>
+                <div style={{ fontFamily: display, fontWeight: 600, fontSize: 17 }}>
+                  {D.products.filter(p => p.status === 'operating').length} {lang === 'zh' ? '个产品' : (D.products.filter(p => p.status === 'operating').length > 1 ? 'products' : 'product')}
+                </div>
               </div>
               <div>
                 <div style={{ fontFamily: mono, fontSize: 10, color: '#888', letterSpacing: 1.5, marginBottom: 4 }}>NEXT DROP</div>

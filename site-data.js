@@ -55,6 +55,20 @@ window.SITE_DATA = {
       accent: '#FFD90A',
     },
     {
+      id: 'fastrecord',
+      name: 'FastRecord Pro',
+      url: 'fastrecord.vercel.app',
+      desc: {
+        zh: '智能微距视频录影SaaS · 抖音画风画中画视频合成与屏幕跟随变焦录屏工具',
+        en: 'Intelligent video recording SaaS · TikTok-style picture-in-picture & smart auto-zoom screen capture',
+      },
+      status: 'operating',
+      stat: { zh: '已上线', en: 'Live' },
+      year: 2026,
+      tags: ['AI', 'Video', 'SaaS', 'Web'],
+      accent: '#B026FF',
+    },
+    {
       id: 'next-2',
       name: { zh: '更多产品', en: 'More to come' },
       url: '',
@@ -108,6 +122,7 @@ window.SITE_DATA = {
 
   // Log entries (building in public)
   log: [
+    { date: '2026·05·26', text: { zh: '第三个产品 FastRecord Pro 顺利上线！抖音画风画中画与智能屏幕跟随变焦，开启商业化探索。', en: 'Product #3 FastRecord Pro is officially live! TikTok-style PiP & smart auto-zoom screen recorder. Commercialization begins today.' } },
     { date: '2026·05·14', text: { zh: '把博客 RSS 跑通了。下一篇写挑战缘起。', en: 'RSS pipeline live. Next post: why this challenge.' } },
     { date: '2026·05·11', text: { zh: '产品 #1 的核心循环跑通，今晚上线 landing。', en: 'Core loop of product #1 works. Landing goes live tonight.' } },
     { date: '2026·05·08', text: { zh: '挑战开始。账面 ¥0，朋友说我疯了。', en: 'Day 1. ¥0 in the bank. Friends say I\'m crazy.' } },
